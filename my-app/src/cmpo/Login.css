@@ -1,0 +1,77 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0; /* Light grey background for the entire page */
+}
+
+.login-form {
+  background-color: #004d40; /* Dark teal green background for the form */
+  padding: 40px; /* Spacious padding inside the form */
+  border-radius: 10px;
+  width: 500px; /* Increased width for a larger form */
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); /* Enhanced shadow for depth */
+}
+
+.login-form h2 {
+  color: #a7ffeb; /* Light teal green for the heading */
+  margin-bottom: 30px; /* Extra space below the heading */
+  text-align: center; /* Center the heading text */
+}
+
+.input-group {
+  margin-bottom: 20px; /* Extra space between form groups */
+}
+
+.input-group label {
+  color: #b2dfdb; /* Soft greenish color for labels */
+  display: block;
+  margin-bottom: 8px; /* More space between label and input */
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px; /* Increased padding for inputs */
+  border-radius: 5px;
+  border: 1px solid #00796b; /* Medium teal green border */
+  background-color: #00352f; /* Slightly darker green background for inputs */
+  color: #e0f2f1; /* Light mint green text inside inputs */
+}
+
+.btn {
+  width: 100%;
+  padding: 12px; /* Slightly increased padding */
+  border-radius: 5px;
+  border: none;
+  background-color: #00796b; /* Medium teal green background for buttons */
+  color: #e0f2f1; /* Light mint green text for buttons */
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 25px; /* More space above the button */
+}
+
+.btn:hover {
+  background-color: #004d40; /* Darken the button on hover */
+  color: #a7ffeb; /* Lighten the text on hover */
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px; /* Increased margin above the links */
+}
+
+.links a {
+  color: #a7ffeb; /* Light teal green for links */
+  text-decoration: none;
+}
+
+.links a:hover {
+  color: #e0f2f1; /* Slightly lighter green on hover */
+}
+
+.error {
+  color: #ff5252; /* Red for error messages to maintain visibility */
+  margin-bottom: 20px; /* More space below the error message */
+}

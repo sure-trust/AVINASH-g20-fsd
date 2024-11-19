@@ -1,0 +1,33 @@
+body {
+  background-color: #0c0f1a;
+  color: #ffffff;
+  font-family: 'Arial', sans-serif;
+}
+
+.course-card {
+  background-color: #9cb8aa;
+  color: rgb(2, 52, 25);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.course-card:hover {
+  transform: translateY(-5px);
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.explore-btn {
+  background-color: #eb9b6c;
+  border-color: #6cb2eb;
+  width: auto; /* Ensures the button doesn't stretch */
+  padding: 10px 20px; /* Provides a balanced padding */
+}
+
+.btn-primary:hover {
+  opacity: 0.9;
+}

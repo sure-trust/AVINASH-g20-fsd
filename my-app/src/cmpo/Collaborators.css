@@ -1,0 +1,43 @@
+.collaborators-page {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    padding: 20px;
+    background-color: #202433;
+  }
+  
+  .collaborators-section {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .collaborators-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+  
+  .collaborators-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .collaborator-card {
+    background-color: #2e354a;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .collaborator-card:hover {
+    transform: translateY(-10px);
+  }
+  
