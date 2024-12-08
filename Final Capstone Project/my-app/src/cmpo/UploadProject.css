@@ -1,0 +1,72 @@
+.upload-project-container {
+  width: 50%; /* Increased width to 50% of the viewport */
+  margin: 0 auto; /* Centers the form horizontally */
+  padding: 30px;
+  background-color: #e6f5e6; /* Light green background */
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 128, 0, 0.2); /* Subtle green shadow */
+  position: absolute; /* Enables centering */
+  top: 50%; /* Moves the form to the middle vertically */
+  left: 50%; /* Moves the form to the middle horizontally */
+  transform: translate(-50%, -50%); /* Centers the form completely */
+}
+
+.upload-project-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  display: block;
+  font-weight: bold;
+  color: #006400; /* Dark green for labels */
+}
+
+.input-group input,
+.input-group textarea {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 2px solid #008000; /* Medium green border */
+  border-radius: 4px;
+  background-color: #f0fff0; /* Very light green background */
+  color: #006400; /* Dark green text */
+}
+
+.input-group input:focus,
+.input-group textarea:focus {
+  border-color: #006400; /* Dark green border on focus */
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 128, 0, 0.5); /* Green glow on focus */
+}
+
+.input-group textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+.error {
+  color: #b22222; /* Red for errors */
+}
+
+.success {
+  color: #228b22; /* Forest green for success messages */
+}
+
+.btn {
+  padding: 10px 15px;
+  background-color: #32cd32; /* Lime green button */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #228b22; /* Darker green on hover */
+}

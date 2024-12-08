@@ -1,0 +1,52 @@
+.projects-page {
+    font-family: Arial, sans-serif;
+    background-color: #202433;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .header {
+    margin-bottom: 20px;
+  }
+  
+  .projects-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .project-card {
+    background-color: #2e354a;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .project-info {
+    padding: 20px;
+  }
+  
+  .project-info .domain {
+    color: #5cbcf6;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .project-info h3 {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #fff;
+  }
+  
+  .project-info p {
+    color: #c4c7d6;
+    font-size: 14px;
+  }
+  
