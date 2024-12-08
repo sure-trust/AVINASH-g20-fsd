@@ -1,0 +1,16 @@
+{
+  "name": "suretrust",
+  "version": "1.0.0",
+  "description": "express js teaching in sure trust",
+  "main": "index.js",
+  "scripts": {
+    "test": "index"
+  },
+  "author": "Nithish",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^6.8.0",
+    "mongoose": "^8.5.1",
+    "mongosh": "^2.2.12"
+  }
+}
